@@ -1,0 +1,65 @@
+# ============================
+# Python
+# ============================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+venv/
+.env.*
+
+# ============================
+# Logs
+# ============================
+
+*.log
+data/health_log.csv
+
+# ============================
+# Cached data (heavy / dynamic)
+# ============================
+
+data/prices_cache/
+data/features_cache/
+data/events_cache.json
+
+# ============================
+# Backtests & reports
+# ============================
+
+data/backtest_reports/
+data/audit_reports/
+
+# ============================
+# Auto-generated weights
+# ============================
+
+data/monster_score_weights.json
+
+# ============================
+# Local config secrets
+# ============================
+
+config_local.py
+
+# ============================
+# Streamlit
+# ============================
+
+.streamlit/
+
+# ============================
+# Docker
+# ============================
+
+*.pid
+
+# ============================
+# OS
+# ============================
+
+.DS_Store
+Thumbs.db
